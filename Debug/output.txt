@@ -1,0 +1,604 @@
+
+swovie.elf:	file format elf32-littlearm
+
+SYMBOL TABLE:
+08000000 l    d  .isr_vector	00000000 .isr_vector
+080001c8 l    d  .text	00000000 .text
+08006870 l    d  .rodata	00000000 .rodata
+08006a68 l    d  .ARM.extab	00000000 .ARM.extab
+08006a68 l    d  .ARM	00000000 .ARM
+08006a70 l    d  .preinit_array	00000000 .preinit_array
+08006a70 l    d  .init_array	00000000 .init_array
+08006a74 l    d  .fini_array	00000000 .fini_array
+20000000 l    d  .data	00000000 .data
+2000000c l    d  .bss	00000000 .bss
+2000039c l    d  ._user_heap_stack	00000000 ._user_heap_stack
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .debug_info	00000000 .debug_info
+00000000 l    d  .debug_abbrev	00000000 .debug_abbrev
+00000000 l    d  .debug_aranges	00000000 .debug_aranges
+00000000 l    d  .debug_rnglists	00000000 .debug_rnglists
+00000000 l    d  .debug_macro	00000000 .debug_macro
+00000000 l    d  .debug_line	00000000 .debug_line
+00000000 l    d  .debug_str	00000000 .debug_str
+00000000 l    d  .debug_frame	00000000 .debug_frame
+00000000 l    d  .debug_line_str	00000000 .debug_line_str
+00000000 l    df *ABS*	00000000 startup_stm32f446retx.o
+08001a98 l       .text	00000000 $t
+08001aac l       .text	00000000 LoopCopyDataInit
+08001aa6 l       .text	00000000 CopyDataInit
+08001abe l       .text	00000000 LoopFillZerobss
+08001aba l       .text	00000000 FillZerobss
+08001ae8 l       .text	00000000 Infinite_Loop
+08001ae8 l       .text	00000000 $t
+08001ad0 l       .text	00000000 $d
+00000000 l    df *ABS*	00000000 crtstuff.c
+08006858 l     O .text	00000000 __EH_FRAME_BEGIN__
+080001c8 l       .text	00000000 $t
+080001c8 l     F .text	00000000 __do_global_dtors_aux
+080001e0 l       .text	00000000 $d
+2000000c l       .bss	00000001 completed.1
+08006a74 l       .fini_array	00000000 $d
+08006a74 l     O .fini_array	00000000 __do_global_dtors_aux_fini_array_entry
+080001ec l       .text	00000000 $t
+080001ec l     F .text	00000000 frame_dummy
+080001fc l       .text	00000000 $d
+20000010 l       .bss	00000018 object.0
+08006a70 l       .init_array	00000000 $d
+08006a70 l     O .init_array	00000000 __frame_dummy_init_array_entry
+2000000c l       .bss	00000000 $d
+00000000 l    df *ABS*	00000000 _arm_addsubdf3.o
+08000208 l       .text	00000000 $t
+00000000 l    df *ABS*	00000000 _arm_muldivdf3.o
+08000580 l       .text	00000000 $t
+00000000 l    df *ABS*	00000000 _arm_cmpdf2.o
+080009a4 l       .text	00000000 $t
+00000000 l    df *ABS*	00000000 _arm_fixdfsi.o
+08000ab4 l       .text	00000000 $t
+00000000 l    df *ABS*	00000000 _arm_fixunsdfsi.o
+08000b04 l       .text	00000000 $t
+00000000 l    df *ABS*	00000000 _arm_truncdfsf2.o
+08000b44 l       .text	00000000 $t
+00000000 l    df *ABS*	00000000 _aeabi_uldivmod.o
+08000be4 l       .text	00000000 $t
+00000000 l    df *ABS*	00000000 _udivmoddi4.o
+08000c14 l       .text	00000000 $t
+08006a68 l       .ARM	00000000 $d
+00000000 l    df *ABS*	00000000 _dvmd_tls.o
+08000edc l       .text	00000000 $t
+00000000 l    df *ABS*	00000000 main.c
+20000028 l       .bss	00000000 $d
+20000070 l       .bss	00000000 $d
+200000b8 l       .bss	00000000 $d
+20000118 l       .bss	00000000 $d
+2000015c l       .bss	00000000 $d
+20000160 l       .bss	00000000 $d
+20000180 l       .bss	00000000 $d
+08000ee0 l       .text	00000000 $t
+08000f38 l       .text	00000000 $d
+08000f40 l       .text	00000000 $t
+08001030 l       .text	00000000 $d
+200001a0 l       .bss	00000000 $d
+08001044 l       .text	00000000 $t
+08001110 l       .text	00000000 $d
+08001120 l       .text	00000000 $t
+08001140 l       .text	00000000 $d
+20000384 l       .bss	00000000 $d
+20000388 l       .bss	00000000 $d
+2000038c l       .bss	00000000 $d
+20000390 l       .bss	00000000 $d
+20000394 l       .bss	00000000 $d
+08001148 l       .text	00000000 $t
+08001208 l       .text	00000000 $d
+08001224 l       .text	00000000 $t
+0800168c l     F .text	000000dc MX_GPIO_Init
+0800164c l     F .text	00000040 MX_DMA_Init
+080015f8 l     F .text	00000054 MX_USART2_UART_Init
+080013dc l     F .text	00000140 MX_TIM1_Init
+0800151c l     F .text	000000dc MX_TIM2_Init
+080012fc l       .text	00000000 $d
+08001304 l       .text	00000000 $t
+080013d4 l       .text	00000000 $d
+080013dc l       .text	00000000 $t
+08001514 l       .text	00000000 $d
+0800151c l       .text	00000000 $t
+080015f4 l       .text	00000000 $d
+080015f8 l       .text	00000000 $t
+08001644 l       .text	00000000 $d
+0800164c l       .text	00000000 $t
+08001688 l       .text	00000000 $d
+0800168c l       .text	00000000 $t
+0800175c l       .text	00000000 $d
+08001768 l       .text	00000000 $t
+00000000 l    df *ABS*	00000000 stm32f4xx_hal_msp.c
+08001774 l       .text	00000000 $t
+080017c0 l       .text	00000000 $d
+080017c4 l       .text	00000000 $t
+080018e0 l       .text	00000000 $d
+080018f4 l       .text	00000000 $t
+0800195c l       .text	00000000 $d
+08001968 l       .text	00000000 $t
+080019ec l       .text	00000000 $d
+00000000 l    df *ABS*	00000000 stm32f4xx_it.c
+080019f8 l       .text	00000000 $t
+080019fe l       .text	00000000 $t
+08001a04 l       .text	00000000 $t
+08001a0a l       .text	00000000 $t
+08001a10 l       .text	00000000 $t
+08001a16 l       .text	00000000 $t
+08001a24 l       .text	00000000 $t
+08001a32 l       .text	00000000 $t
+08001a40 l       .text	00000000 $t
+08001a4c l       .text	00000000 $t
+08001a5c l       .text	00000000 $d
+08001a60 l       .text	00000000 $t
+08001a70 l       .text	00000000 $d
+00000000 l    df *ABS*	00000000 system_stm32f4xx.c
+20000000 l       .data	00000000 $d
+08006870 l       .rodata	00000000 $d
+08006880 l       .rodata	00000000 $d
+08001a74 l       .text	00000000 $t
+08001a94 l       .text	00000000 $d
+00000000 l    df *ABS*	00000000 stm32f4xx_hal.c
+20000398 l       .bss	00000000 $d
+20000004 l       .data	00000000 $d
+08001aec l       .text	00000000 $t
+08001b2c l       .text	00000000 $d
+08001b30 l       .text	00000000 $t
+08001b84 l       .text	00000000 $d
+08001b90 l       .text	00000000 $t
+08001bb0 l       .text	00000000 $d
+08001bb8 l       .text	00000000 $t
+08001bcc l       .text	00000000 $d
+08001bd0 l       .text	00000000 $t
+08001c14 l       .text	00000000 $d
+00000000 l    df *ABS*	00000000 stm32f4xx_hal_cortex.c
+08001c18 l       .text	00000000 $t
+08001c18 l     F .text	00000048 __NVIC_SetPriorityGrouping
+08001c5c l       .text	00000000 $d
+08001c60 l       .text	00000000 $t
+08001c60 l     F .text	0000001c __NVIC_GetPriorityGrouping
+08001c78 l       .text	00000000 $d
+08001c7c l       .text	00000000 $t
+08001c7c l     F .text	0000003c __NVIC_EnableIRQ
+08001cb4 l       .text	00000000 $d
+08001cb8 l       .text	00000000 $t
+08001cb8 l     F .text	00000054 __NVIC_SetPriority
+08001d04 l       .text	00000000 $d
+08001d0c l       .text	00000000 $t
+08001d0c l     F .text	00000066 NVIC_EncodePriority
+08001d74 l       .text	00000000 $t
+08001d74 l     F .text	00000044 SysTick_Config
+08001db4 l       .text	00000000 $d
+08001db8 l       .text	00000000 $t
+08001dce l       .text	00000000 $t
+08001e06 l       .text	00000000 $t
+08001e22 l       .text	00000000 $t
+00000000 l    df *ABS*	00000000 stm32f4xx_hal_dma.c
+08001e3c l       .text	00000000 $t
+08002468 l     F .text	000000f6 DMA_CheckFifoParam
+080023fc l     F .text	0000006c DMA_CalcBaseAndBitshift
+08001f94 l       .text	00000000 $d
+080023a0 l     F .text	0000005c DMA_SetConfig
+08001f98 l       .text	00000000 $t
+08002048 l       .text	00000000 $t
+0800208c l       .text	00000000 $t
+080022d4 l       .text	00000000 $d
+080022dc l       .text	00000000 $t
+080023a0 l       .text	00000000 $t
+080023fc l       .text	00000000 $t
+08002460 l       .text	00000000 $d
+08006888 l     O .rodata	00000008 flagBitshiftOffset.0
+08002468 l       .text	00000000 $t
+08002490 l       .text	00000000 $d
+080024a0 l       .text	00000000 $t
+080024d8 l       .text	00000000 $d
+080024e8 l       .text	00000000 $t
+08006888 l       .rodata	00000000 $d
+00000000 l    df *ABS*	00000000 stm32f4xx_hal_gpio.c
+08002560 l       .text	00000000 $t
+08002860 l       .text	00000000 $d
+08002888 l       .text	00000000 $t
+00000000 l    df *ABS*	00000000 stm32f4xx_hal_rcc.c
+080028bc l       .text	00000000 $t
+08002a74 l       .text	00000000 $d
+08002a88 l       .text	00000000 $t
+08002a9c l       .text	00000000 $d
+08002aa0 l       .text	00000000 $t
+08002ac0 l       .text	00000000 $d
+08002ac8 l       .text	00000000 $t
+08002ae8 l       .text	00000000 $d
+00000000 l    df *ABS*	00000000 stm32f4xx_hal_rcc_ex.c
+08002af0 l       .text	00000000 $t
+08002b2c l       .text	00000000 $d
+08002b60 l       .text	00000000 $t
+08002e44 l       .text	00000000 $d
+08002e50 l       .text	00000000 $t
+08002f48 l       .text	00000000 $d
+08002f50 l       .text	00000000 $t
+080031c4 l       .text	00000000 $d
+080031d0 l       .text	00000000 $t
+080033fc l       .text	00000000 $d
+08003408 l       .text	00000000 $t
+08003488 l       .text	00000000 $d
+00000000 l    df *ABS*	00000000 stm32f4xx_hal_tim.c
+0800348c l       .text	00000000 $t
+080045ee l     F .text	000000a8 TIM_DMADelayPulseCplt
+0800352a l       .text	00000000 $t
+080035c8 l       .text	00000000 $t
+080035dc l       .text	00000000 $t
+08003718 l       .text	00000000 $d
+0800374c l       .text	00000000 $t
+08003944 l       .text	00000000 $d
+0800396c l       .text	00000000 $t
+08003988 l       .text	00000000 $d
+080039bc l       .text	00000000 $t
+08003b08 l       .text	00000000 $d
+08003b10 l       .text	00000000 $t
+08003bae l       .text	00000000 $t
+08003bc4 l       .text	00000000 $t
+08003cd4 l       .text	00000000 $d
+08003d08 l       .text	00000000 $t
+08003df8 l       .text	00000000 $d
+08003e14 l       .text	00000000 $t
+08004840 l     F .text	000000e0 TIM_OC1_SetConfig
+08004a0c l     F .text	000000e8 TIM_OC3_SetConfig
+08004af4 l     F .text	000000ac TIM_OC4_SetConfig
+08004024 l       .text	00000000 $t
+08004ce6 l     F .text	0000007a TIM_TI2_SetConfig
+08004dc0 l     F .text	00000078 TIM_TI3_SetConfig
+08004e38 l     F .text	0000007a TIM_TI4_SetConfig
+0800415c l       .text	00000000 $t
+08004190 l       .text	00000000 $d
+080041c4 l       .text	00000000 $t
+080042e0 l       .text	00000000 $t
+08004c88 l     F .text	0000005e TIM_TI1_ConfigInputStage
+08004eb2 l     F .text	00000036 TIM_ITRx_SetConfig
+08004d60 l     F .text	00000060 TIM_TI2_ConfigInputStage
+08004470 l       .text	00000000 $t
+0800448c l       .text	00000000 $d
+080044c0 l       .text	00000000 $t
+080044f8 l       .text	00000000 $t
+0800450c l       .text	00000000 $t
+08004520 l       .text	00000000 $t
+08004534 l       .text	00000000 $t
+08004548 l       .text	00000000 $t
+0800455c l       .text	00000000 $t
+080045ee l       .text	00000000 $t
+08004696 l       .text	00000000 $t
+08004700 l       .text	00000000 $t
+08004814 l       .text	00000000 $d
+08004840 l       .text	00000000 $t
+08004918 l       .text	00000000 $d
+08004920 l       .text	00000000 $t
+08004a04 l       .text	00000000 $d
+08004a0c l       .text	00000000 $t
+08004aec l       .text	00000000 $d
+08004af4 l       .text	00000000 $t
+08004b98 l       .text	00000000 $d
+08004ba0 l       .text	00000000 $t
+08004c6c l       .text	00000000 $d
+08004c88 l       .text	00000000 $t
+08004ce6 l       .text	00000000 $t
+08004d60 l       .text	00000000 $t
+08004dc0 l       .text	00000000 $t
+08004e38 l       .text	00000000 $t
+08004eb2 l       .text	00000000 $t
+08004ee8 l       .text	00000000 $t
+08004f28 l       .text	00000000 $t
+00000000 l    df *ABS*	00000000 stm32f4xx_hal_tim_ex.c
+08004f74 l       .text	00000000 $t
+08005050 l       .text	00000000 $d
+0800506c l       .text	00000000 $t
+08005110 l       .text	00000000 $t
+08005124 l       .text	00000000 $t
+00000000 l    df *ABS*	00000000 stm32f4xx_hal_uart.c
+08005138 l       .text	00000000 $t
+080051d4 l     F .text	000004e8 UART_SetConfig
+080051d4 l       .text	00000000 $t
+080054a0 l       .text	00000000 $d
+080054ac l       .text	00000000 $t
+080056b8 l       .text	00000000 $d
+00000000 l    df *ABS*	00000000 libc_a-memset.o
+080056bc l       .text	00000000 $t
+00000000 l    df *ABS*	00000000 libc_a-init.o
+080056cc l       .text	00000000 $t
+08005704 l       .text	00000000 $d
+00000000 l    df *ABS*	00000000 libm_a-s_tan.o
+08005718 l       .text	00000000 $t
+08005770 l       .text	00000000 $d
+00000000 l    df *ABS*	00000000 libm_a-e_rem_pio2.o
+08005780 l       .text	00000000 $t
+08005a80 l       .text	00000000 $d
+08005ad4 l       .text	00000000 $t
+08005b84 l       .text	00000000 $d
+08006890 l       .rodata	00000000 $d
+08006890 l     O .rodata	00000080 npio2_hw
+08006910 l       .rodata	00000000 $d
+08006910 l     O .rodata	00000108 two_over_pi
+00000000 l    df *ABS*	00000000 libm_a-k_rem_pio2.o
+08005b90 l       .text	00000000 $t
+08005ea0 l       .text	00000000 $d
+08005ecc l       .text	00000000 $t
+08006224 l       .text	00000000 $d
+08006a18 l       .rodata	00000000 $d
+08006a18 l     O .rodata	00000040 PIo2
+08006a58 l       .rodata	00000000 $d
+08006a58 l     O .rodata	00000010 init_jk
+00000000 l    df *ABS*	00000000 libm_a-k_tan.o
+08006230 l       .text	00000000 $t
+08006548 l       .text	00000000 $d
+080065d0 l       .text	00000000 $t
+0800663c l       .text	00000000 $d
+00000000 l    df *ABS*	00000000 libm_a-s_fabs.o
+08006644 l       .text	00000000 $t
+00000000 l    df *ABS*	00000000 libm_a-s_scalbn.o
+08006658 l       .text	00000000 $t
+08006728 l       .text	00000000 $d
+00000000 l    df *ABS*	00000000 libm_a-s_floor.o
+08006758 l       .text	00000000 $t
+08006848 l       .text	00000000 $d
+00000000 l    df *ABS*	00000000 crti.o
+08006858 l       .text	00000000 $t
+08006864 l       .text	00000000 $t
+00000000 l    df *ABS*	00000000 crtn.o
+0800685c l       .text	00000000 $t
+08006868 l       .text	00000000 $t
+00000000 l    df *ABS*	00000000 
+08006a74 l       .init_array	00000000 __init_array_end
+08006a70 l       .preinit_array	00000000 __preinit_array_end
+08006a70 l       .init_array	00000000 __init_array_start
+08006a70 l       .preinit_array	00000000 __preinit_array_start
+08000000 l       .isr_vector	00000000 $d
+20000008 l       .data	00000000 $d
+08004696 g     F .text	00000068 TIM_DMADelayPulseHalfCplt
+08001ae8  w    F .text	00000002 RTC_Alarm_IRQHandler
+08001ae8  w    F .text	00000002 EXTI2_IRQHandler
+08006880 g     O .rodata	00000008 APBPrescTable
+08001ae8  w    F .text	00000002 TIM8_CC_IRQHandler
+08000a78 g     F .text	00000012 .hidden __aeabi_dcmple
+0800415c g     F .text	00000184 HAL_TIM_PWM_ConfigChannel
+080009b4 g     F .text	0000007a .hidden __cmpdf2
+08006644 g     F .text	00000012 fabs
+08001a24 g     F .text	0000000e DebugMon_Handler
+08001ae8  w    F .text	00000002 FMPI2C1_EV_IRQHandler
+08001ae8  w    F .text	00000002 SPI4_IRQHandler
+080009b4 g     F .text	0000007a .hidden __eqdf2
+08001e3c g     F .text	0000015c HAL_DMA_Init
+200000b8 g     O .bss	00000060 hdma_tim1_ch1
+08000524 g     F .text	0000005a .hidden __floatdidf
+08004470 g     F .text	00000088 HAL_TIM_ReadCapturedValue
+08002aa0 g     F .text	00000028 HAL_RCC_GetPCLK1Freq
+08001ae8  w    F .text	00000002 TIM1_CC_IRQHandler
+08001dce g     F .text	00000038 HAL_NVIC_SetPriority
+08002ac8 g     F .text	00000028 HAL_RCC_GetPCLK2Freq
+08001ae8  w    F .text	00000002 DMA2_Stream5_IRQHandler
+080019fe g     F .text	00000006 HardFault_Handler
+08001ae8  w    F .text	00000002 DMA1_Stream5_IRQHandler
+00000400 g       *ABS*	00000000 _Min_Stack_Size
+08003b10 g     F .text	0000009e HAL_TIM_IC_Init
+08001a40 g     F .text	0000000c SysTick_Handler
+08002888 g     F .text	00000032 HAL_GPIO_WritePin
+08001ae8  w    F .text	00000002 PVD_IRQHandler
+08001ae8  w    F .text	00000002 SDIO_IRQHandler
+08001ae8  w    F .text	00000002 TAMP_STAMP_IRQHandler
+08003e14 g     F .text	00000210 HAL_TIM_IRQHandler
+08006a78 g       *ABS*	00000000 _sidata
+08002a88 g     F .text	00000018 HAL_RCC_GetHCLKFreq
+08001a32 g     F .text	0000000e PendSV_Handler
+08005110  w    F .text	00000014 HAL_TIMEx_CommutCallback
+080019f8 g     F .text	00000006 NMI_Handler
+08001e06 g     F .text	0000001c HAL_NVIC_EnableIRQ
+08006a70 g       .ARM	00000000 __exidx_end
+08001ae8  w    F .text	00000002 CAN2_RX1_IRQHandler
+08001ae8  w    F .text	00000002 EXTI3_IRQHandler
+08002af0 g     F .text	00000460 HAL_RCC_GetSysClockFreq
+080009a4 g     F .text	0000008a .hidden __gtdf2
+08001ae8  w    F .text	00000002 TIM8_TRG_COM_TIM14_IRQHandler
+08001774 g     F .text	00000050 HAL_MspInit
+08001ae8  w    F .text	00000002 TIM1_UP_TIM10_IRQHandler
+20000160 g     O .bss	00000020 LED_Data
+08006758 g     F .text	00000100 floor
+08006870 g       .text	00000000 _etext
+2000000c g       .bss	00000000 _sbss
+08000a40 g     F .text	00000010 .hidden __aeabi_cdcmple
+08001ae8  w    F .text	00000002 TIM8_UP_TIM13_IRQHandler
+08001ae8  w    F .text	00000002 I2C3_ER_IRQHandler
+08001f98 g     F .text	000000b0 HAL_DMA_Start_IT
+08002560 g     F .text	00000328 HAL_GPIO_Init
+08005780 g     F .text	0000040c __ieee754_rem_pio2
+08000a30 g     F .text	00000020 .hidden __aeabi_cdrcmple
+08000ee0 g     F .text	0000005c Set_LED
+080004ac g     F .text	00000022 .hidden __floatsidf
+080009ac g     F .text	00000082 .hidden __ltdf2
+08001ae8  w    F .text	00000002 EXTI0_IRQHandler
+08001ae8  w    F .text	00000002 I2C2_EV_IRQHandler
+08000be4 g     F .text	00000000 .hidden __aeabi_uldivmod
+08001ae8  w    F .text	00000002 DMA1_Stream2_IRQHandler
+08001ae8  w    F .text	00000002 CAN1_RX0_IRQHandler
+2000015c g     O .bss	00000004 datasentflag
+08001ae8  w    F .text	00000002 FPU_IRQHandler
+08001bd0  w    F .text	00000048 HAL_Delay
+20000000 g     O .data	00000004 SystemCoreClock
+08001ae8  w    F .text	00000002 OTG_HS_WKUP_IRQHandler
+20000008 g     O .data	00000001 uwTickFreq
+20000180 g     O .bss	00000020 LED_Mod
+08001a10 g     F .text	00000006 UsageFault_Handler
+08000b04 g     F .text	00000040 .hidden __fixunsdfsi
+08001ae8  w    F .text	00000002 CAN2_SCE_IRQHandler
+20000384 g     O .bss	00000004 IC_Val1
+08001ae8  w    F .text	00000002 DMA2_Stream2_IRQHandler
+2000000c g       .bss	00000000 __bss_start__
+0800396c g     F .text	000001a4 HAL_TIM_PWM_Stop_DMA
+0800048c g     F .text	0000001e .hidden __aeabi_ui2d
+20000000 g       .data	00000000 _sdata
+08001ae8  w    F .text	00000002 SPI1_IRQHandler
+08000c14 g     F .text	000002c8 .hidden __udivmoddi4
+08000208 g     F .text	00000000 .hidden __aeabi_drsub
+0800450c  w    F .text	00000014 HAL_TIM_OC_DelayElapsedCallback
+08001ae8  w    F .text	00000002 TIM6_DAC_IRQHandler
+20000390 g     O .bss	00000004 Is_First_Captured
+08001ae8  w    F .text	00000002 TIM1_BRK_TIM9_IRQHandler
+08001ae8  w    F .text	00000002 DCMI_IRQHandler
+08000a64 g     F .text	00000012 .hidden __aeabi_dcmplt
+20000398 g     O .bss	00000004 uwTick
+08001304 g     F .text	000000d8 SystemClock_Config
+08001ae8  w    F .text	00000002 CAN2_RX0_IRQHandler
+08001e22 g     F .text	00000018 HAL_SYSTICK_Config
+080004d0 g     F .text	00000042 .hidden __extendsfdf2
+080007d4 g     F .text	000001d0 .hidden __aeabi_ddiv
+08000214 g     F .text	00000276 .hidden __adddf3
+08006a68 g       .ARM	00000000 __exidx_start
+08001ae8  w    F .text	00000002 DMA2_Stream3_IRQHandler
+08000580 g     F .text	00000254 .hidden __aeabi_dmul
+080056cc g     F .text	00000048 __libc_init_array
+08001ae8  w    F .text	00000002 SAI2_IRQHandler
+0800048c g     F .text	0000001e .hidden __floatunsidf
+08001ae8  w    F .text	00000002 USART6_IRQHandler
+08006858 g     F .text	00000000 _init
+08000b44 g     F .text	0000009e .hidden __aeabi_d2f
+08001ae8  w    F .text	00000002 USART3_IRQHandler
+08005b90 g     F .text	0000069c __kernel_rem_pio2
+2000039c g       .bss	00000000 _ebss
+08004548  w    F .text	00000014 HAL_TIM_ErrorCallback
+08001a98  w    F .text	00000038 Reset_Handler
+08004700 g     F .text	00000140 TIM_Base_SetConfig
+08001ae8  w    F .text	00000002 CAN1_RX1_IRQHandler
+08000ab4 g     F .text	0000004e .hidden __fixdfsi
+08000f40 g     F .text	00000104 Set_Brightness
+08001ae8  w    F .text	00000002 UART5_IRQHandler
+08001ae8  w    F .text	00000002 DMA2_Stream0_IRQHandler
+20000004 g     O .data	00000004 uwTickPrio
+08001aec g     F .text	00000044 HAL_Init
+08001ae8  w    F .text	00000002 TIM4_IRQHandler
+08000214 g     F .text	00000276 .hidden __aeabi_dadd
+080009ac g     F .text	00000082 .hidden __ledf2
+08000514 g     F .text	0000006a .hidden __aeabi_ul2d
+08003bc4 g     F .text	00000250 HAL_TIM_IC_Start_IT
+08001ae8  w    F .text	00000002 QUADSPI_IRQHandler
+200001a0 g     O .bss	000001e4 pwmData
+08001ae8  w    F .text	00000002 I2C1_EV_IRQHandler
+08001ae8  w    F .text	00000002 DMA1_Stream6_IRQHandler
+20000394 g     O .bss	00000004 usWidth
+08000aa0 g     F .text	00000012 .hidden __aeabi_dcmpgt
+08001ae8  w    F .text	00000002 DMA1_Stream1_IRQHandler
+08001ae8  w    F .text	00000002 UART4_IRQHandler
+2000039c g       .bss	00000000 __bss_end__
+08001ae8  w    F .text	00000002 TIM3_IRQHandler
+08001ae8  w    F .text	00000002 RCC_IRQHandler
+08000a8c g     F .text	00000012 .hidden __aeabi_dcmpge
+08001ae8  w    F .text	00000002 TIM8_BRK_TIM12_IRQHandler
+08004ba0 g     F .text	000000e8 TIM_TI1_SetConfig
+00000200 g       *ABS*	00000000 _Min_Heap_Size
+08000210 g     F .text	0000027a .hidden __aeabi_dsub
+08001ae8 g       .text	00000002 Default_Handler
+08006870 g     O .rodata	00000010 AHBPrescTable
+08000514 g     F .text	0000006a .hidden __floatundidf
+08001ae8  w    F .text	00000002 CEC_IRQHandler
+08001ae8  w    F .text	00000002 EXTI15_10_IRQHandler
+08001ae8  w    F .text	00000002 ADC_IRQHandler
+080028bc g     F .text	000001cc HAL_RCC_ClockConfig
+08001db8 g     F .text	00000016 HAL_NVIC_SetPriorityGrouping
+08001ae8  w    F .text	00000002 DMA1_Stream7_IRQHandler
+08001ae8  w    F .text	00000002 TIM7_IRQHandler
+08001ae8  w    F .text	00000002 CAN2_TX_IRQHandler
+080004ac g     F .text	00000022 .hidden __aeabi_i2d
+08004520  w    F .text	00000014 HAL_TIM_PWM_PulseFinishedHalfCpltCallback
+08001ae8  w    F .text	00000002 TIM5_IRQHandler
+08001ae8  w    F .text	00000002 DMA2_Stream7_IRQHandler
+0800348c g     F .text	0000009e HAL_TIM_Base_Init
+080044f8  w    F .text	00000014 HAL_TIM_PeriodElapsedCallback
+08001ae8  w    F .text	00000002 I2C3_EV_IRQHandler
+08000edc  w    F .text	00000002 .hidden __aeabi_ldiv0
+08001ae8  w    F .text	00000002 EXTI9_5_IRQHandler
+080007d4 g     F .text	000001d0 .hidden __divdf3
+0800455c g     F .text	00000092 TIM_DMAError
+08001ae8  w    F .text	00000002 RTC_WKUP_IRQHandler
+08000580 g     F .text	00000254 .hidden __muldf3
+08001bb8  w    F .text	00000018 HAL_GetTick
+08001ae8  w    F .text	00000002 SPDIF_RX_IRQHandler
+08001ae8  w    F .text	00000002 SPI2_IRQHandler
+20000388 g     O .bss	00000004 IC_Val2
+08001ae8  w    F .text	00000002 OTG_HS_EP1_IN_IRQHandler
+080042e0 g     F .text	0000018e HAL_TIM_ConfigClockSource
+080056bc g     F .text	00000010 memset
+08001a04 g     F .text	00000006 MemManage_Handler
+08001224 g     F .text	000000e0 main
+08001ae8  w    F .text	00000002 DMA1_Stream0_IRQHandler
+20000028 g     O .bss	00000048 htim1
+2000038c g     O .bss	00000004 Difference
+08001ae8  w    F .text	00000002 CAN1_TX_IRQHandler
+0800352a g     F .text	0000009e HAL_TIM_PWM_Init
+08001a16 g     F .text	0000000e SVC_Handler
+08000b44 g     F .text	0000009e .hidden __truncdfsf2
+08001ae8  w    F .text	00000002 FMPI2C1_ER_IRQHandler
+08000524 g     F .text	0000005a .hidden __aeabi_l2d
+08001148 g     F .text	000000dc HAL_TIM_IC_CaptureCallback
+08003bae  w    F .text	00000014 HAL_TIM_IC_MspInit
+08001ae8  w    F .text	00000002 EXTI4_IRQHandler
+08005718 g     F .text	00000068 tan
+08001a74 g     F .text	00000024 SystemInit
+080009b4 g     F .text	0000007a .hidden __nedf2
+08006864 g     F .text	00000000 _fini
+08001968 g     F .text	00000090 HAL_UART_MspInit
+08001120 g     F .text	00000028 HAL_TIM_PWM_PulseFinishedCallback
+08001044 g     F .text	000000dc WS2812_Send
+08001b30  w    F .text	00000060 HAL_InitTick
+08006658 g     F .text	000000fc scalbn
+08001b90  w    F .text	00000028 HAL_IncTick
+08001ae8  w    F .text	00000002 OTG_HS_EP1_OUT_IRQHandler
+0800208c g     F .text	00000314 HAL_DMA_IRQHandler
+08001ae8  w    F .text	00000002 WWDG_IRQHandler
+08004534  w    F .text	00000014 HAL_TIM_TriggerCallback
+08001a4c g     F .text	00000014 TIM2_IRQHandler
+08004f74 g     F .text	000000f8 HAL_TIMEx_MasterConfigSynchronization
+08000b04 g     F .text	00000040 .hidden __aeabi_d2uiz
+08001ae8  w    F .text	00000002 OTG_FS_WKUP_IRQHandler
+20000070 g     O .bss	00000048 htim2
+08004920 g     F .text	000000ec TIM_OC2_SetConfig
+08001ae8  w    F .text	00000002 TIM1_TRG_COM_TIM11_IRQHandler
+08001ae8  w    F .text	00000002 OTG_HS_IRQHandler
+080035dc g     F .text	00000390 HAL_TIM_PWM_Start_DMA
+080018f4 g     F .text	00000074 HAL_TIM_MspPostInit
+20020000 g       .isr_vector	00000000 _estack
+08001ae8  w    F .text	00000002 EXTI1_IRQHandler
+08000a50 g     F .text	00000012 .hidden __aeabi_dcmpeq
+08004ee8 g     F .text	00000040 TIM_ETR_SetConfig
+2000000c g       .data	00000000 _edata
+20000118 g     O .bss	00000044 huart2
+200003a0 g       ._user_heap_stack	00000000 _end
+0800506c g     F .text	000000a4 HAL_TIMEx_ConfigBreakDeadTime
+080017c4 g     F .text	00000130 HAL_TIM_Base_MspInit
+08001ae8  w    F .text	00000002 USART2_IRQHandler
+08002f50 g     F .text	0000053c HAL_RCC_OscConfig
+08000000 g     O .isr_vector	00000000 g_pfnVectors
+08004024 g     F .text	00000138 HAL_TIM_IC_ConfigChannel
+08000ab4 g     F .text	0000004e .hidden __aeabi_d2iz
+08001ae8  w    F .text	00000002 I2C2_ER_IRQHandler
+08001a60 g     F .text	00000014 DMA2_Stream1_IRQHandler
+08000edc  w    F .text	00000002 .hidden __aeabi_idiv0
+08004f28 g     F .text	0000004a TIM_CCxChannelCmd
+08001ae8  w    F .text	00000002 CAN1_SCE_IRQHandler
+08001ae8  w    F .text	00000002 FLASH_IRQHandler
+08001ae8  w    F .text	00000002 DMA2_Stream4_IRQHandler
+08001a0a g     F .text	00000006 BusFault_Handler
+08001ae8  w    F .text	00000002 USART1_IRQHandler
+08001ae8  w    F .text	00000002 OTG_FS_IRQHandler
+08001ae8  w    F .text	00000002 SPI3_IRQHandler
+08000a40 g     F .text	00000010 .hidden __aeabi_cdcmpeq
+080009a4 g     F .text	0000008a .hidden __gedf2
+08001ae8  w    F .text	00000002 DMA1_Stream4_IRQHandler
+080035c8  w    F .text	00000014 HAL_TIM_PWM_MspInit
+08005138 g     F .text	0000009a HAL_UART_Init
+08001ae8  w    F .text	00000002 I2C1_ER_IRQHandler
+08001ae8  w    F .text	00000002 FMC_IRQHandler
+080004d0 g     F .text	00000042 .hidden __aeabi_f2d
+08005124  w    F .text	00000014 HAL_TIMEx_BreakCallback
+08000210 g     F .text	0000027a .hidden __subdf3
+08006230 g     F .text	00000414 __kernel_tan
+08001ae8  w    F .text	00000002 DMA2_Stream6_IRQHandler
+08002048 g     F .text	00000044 HAL_DMA_Abort_IT
+08001ae8  w    F .text	00000002 SAI1_IRQHandler
+08001ae8  w    F .text	00000002 DMA1_Stream3_IRQHandler
+08001768 g     F .text	0000000a Error_Handler
